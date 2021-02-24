@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="hopper.png">
+    <title>Кузнечик</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="menus">
+        <nav class="menus__navigation">
+          <ul class="menus__navigation-list">
+            <li class="menus__navigation-item"><a href="/">Домой</a></li>
+            <li class="menus__navigation-item"><a href="/">К Кузнечику</a></li>
+            <li class="menus__navigation-item"><a href="/">О создателе</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="hopper-workspace">
+          <img class="hopper-workspace__tempimage" src="hopper-workspace.png" alt="hopper">
+        </div>
+        <div class="hopper-commands">
+          <form class="hopper-commands__form" action="">
+            <label class="hopper-commands__label" for="command-input">Напишите код программы</label>
+            <textarea class="hopper-commands__input" type="text" id="command-input" autocomplete="off"></textarea>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

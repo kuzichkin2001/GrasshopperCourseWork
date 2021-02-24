@@ -1,0 +1,81 @@
+/* Container */
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.menus {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #96E6B3;
+}
+
+.menus__navigation {
+  padding: 10px;
+  width: 100%;
+}
+
+.menus__navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menus__navigation-item a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s linear;
+}
+
+.menus__navigation-item a:hover {
+  color: blue;
+}
+
+/* Main content */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.hopper-workspace {
+  border: 1px solid black;
+}
+
+.hopper-workspace__tempimage {
+  object-fit: cover;
+  object-position: right;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.hopper-commands {
+  margin-left: 25px;
+  width: 50%;
+}
+
+.hopper-commands__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.hopper-commands__label {
+  margin-bottom: 15px;
+}
+
+.hopper-commands__input {
+  width: 100%;
+  height: 465px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+}
