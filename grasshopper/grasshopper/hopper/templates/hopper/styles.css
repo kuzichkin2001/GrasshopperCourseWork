@@ -49,6 +49,7 @@
 
 .hopper-workspace {
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 .hopper-workspace__tempimage {
@@ -70,12 +71,37 @@
 }
 
 .hopper-commands__label {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
+}
+
+.hopper-commands__actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.hopper-commands__action-btn {
+  padding: 5px;
+  width: 45%;
+  border-radius: 0px;
+  border: 0;
+  color: #000;
+  transition: 0.1s linear;
+}
+
+.hopper-commands__action-btn:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.hopper-commands__action-btn:active {
+  outline: none;
 }
 
 .hopper-commands__input {
   width: 100%;
   height: 465px;
+  outline-style: none;
   font-family: 'Courier New', Courier, monospace;
   font-size: 22px;
 }

@@ -26,8 +26,13 @@
           <img class="hopper-workspace__tempimage" src="hopper-workspace.png" alt="hopper">
         </div>
         <div class="hopper-commands">
-          <form class="hopper-commands__form" action="">
+          <script src="index.js"></script>
+          <form class="hopper-commands__form" action="" onsubmit="handleSubmit()">
             <label class="hopper-commands__label" for="command-input">Напишите код программы</label>
+            <div class="hopper-commands__actions">
+              <button class="hopper-commands__action-btn">Фиксированный шаг</button>
+              <button class="hopper-commands__action-btn">Произвольные шаги</button>
+            </div>
             <textarea class="hopper-commands__input" type="text" id="command-input" autocomplete="off"></textarea>
           </form>
         </div>
